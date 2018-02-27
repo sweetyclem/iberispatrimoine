@@ -1,0 +1,11 @@
+
+/wp-content/upgrade
+/wp-content/uploads
+/sitemap.*
+/wp-config.php
+*.sql
+
+*.DS_Store
+*Thumbs.db
+*.sass-cache*
+*~imageoptim* iberispatrimoine.fr;
