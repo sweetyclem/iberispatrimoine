@@ -814,6 +814,12 @@ body.landing #header nav a {
     right: 0;
 }
 
+/* .container-navbar {
+    margin-right: 0;
+    margin-left: 0;
+    width: 100%;
+} */
+
 
 /* Banner */
 
@@ -1028,7 +1034,8 @@ body.landing #header nav a {
 .navbar {
     margin-bottom: 0px;
     margin-top: 0px;
-    height: 3.8em;
+    /* height: 3.8em; */
+    /* height: 5vw; */
 }
 
 .navbar-brand {
