@@ -1391,6 +1391,13 @@ body.landing #header nav a {
         /* height: 3.8em; */
         height: 3.6vw;
     }
+    .navbar-default .navbar-nav>li>a {
+        color: #f1602b!important;
+        font-weight: 700;
+        font-size: 20px;
+        height: 100%;
+        line-height: 55px;
+    }
     .orange-icon {
         width: 22%;
         color: #f1602b;
