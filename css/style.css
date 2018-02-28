@@ -1195,7 +1195,7 @@ body.landing #header nav a {
 
 .style2 {
     background: url("../images/Background_Fleurs.jpg");
-    background-repeat: round;
+    background-repeat: repeat;
 }
 
 .choisir {
