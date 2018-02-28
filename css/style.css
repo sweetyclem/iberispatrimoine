@@ -708,6 +708,29 @@ input[type="button"]:disabled,
 
 /* Header */
 
+.header {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+#header-img {
+    position: relative;
+    top: 60;
+}
+
+.header-text > h1 {
+    color:white;
+}
+
+.header-text > p {
+    font-size: 1.2em;
+}
+
+#one {
+    margin-top: 75px;
+}
+
 body.landing #header {
     background-color: transparent;
     left: 0;
@@ -1164,9 +1187,57 @@ body.landing #header nav a {
     .icon-right {
         margin-right: 50px;
     }
+    .header-text {
+        width: 75%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .mobile-header-text {
+        font-size: 1.1em;
+    }
+    .header-text >h1 {
+        font-size: 2em;
+    }
+    .mobile-header {
+        position: relative;
+        top: 60;
+    }
 }
 
-@media (min-width: 481px) and (max-width: 768px) {
+@media (min-width: 481px) and (max-width: 680px) {
+    #home {
+        width: 25%;
+        position: absolute;
+        top: 50%;
+        left: 15%;
+        transform: translate(-50%,-50%);
+    }
+    .orange-icon {
+        width: 30%;
+        color: #f1602b;
+    }
+    .header-text {
+        width: 75%;
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .mobile-header-text {
+        font-size: 1.1em;
+    }
+    .header-text >h1 {
+        font-size: 2em;
+    }
+    .mobile-header {
+        position: relative;
+        top: 60;
+    }
+}
+
+@media (min-width: 681px) and (max-width: 767px) {
     #home {
         width: 17%;
         position: absolute;
@@ -1178,9 +1249,29 @@ body.landing #header nav a {
         width: 30%;
         color: #f1602b;
     }
+    .header-text {
+        width: 75%;
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .header-text > p {
+        font-size: 1em;
+    }
+    .header-text >h1 {
+        font-size: 1.8em;
+    }
+    .mobile-header {
+        position: relative;
+        top: 60;
+    }
+    .caption {
+        display: none;
+    }
 }
 
-@media (min-width: 769px) and (max-width: 990px) {
+@media (min-width: 768px) and (max-width: 990px) {
     #home {
         width: 15%;
         position: absolute;
@@ -1191,6 +1282,19 @@ body.landing #header nav a {
     .orange-icon {
         width: 30%;
         color: #f1602b;
+    }
+    .header-text {
+        width: 75%;
+        position: absolute;
+        top: 45%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .header-text > p {
+        font-size: 1.1em;
+    }
+    .header-text >h1 {
+        font-size: 1.8em;
     }
 }
 
@@ -1206,15 +1310,37 @@ body.landing #header nav a {
         width: 30%;
         color: #f1602b;
     }
+    .header-text {
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
 }
 
 @media (min-width: 1400px) and (max-width: 1849px) {
     #home {
         width: 10%;
+        position: absolute;
+        top: 50%;
+        left: 7%;
+        transform: translate(-50%,-50%);
     }
     .orange-icon {
         width: 22%;
         color: #f1602b;
+    }
+    .header-text {
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .header-text > p {
+        font-size: 1.2em;
+    }
+    .header-text >h1 {
+        font-size: 2em;
     }
 }
 
@@ -1230,6 +1356,22 @@ body.landing #header nav a {
         width: 22%;
         color: #f1602b;
     }
+    .header-text {
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .header-text > p {
+        font-size: 1.6em;
+    }
+    .header-text > h1 {
+        font-size: 2.5em;
+    }
+    #header-img {
+        position: relative;
+        top: 63;
+    }
 }
 
 .style2 {
@@ -1237,7 +1379,7 @@ body.landing #header nav a {
     background-repeat: repeat;
 }
 
-.choisir {
+.choose {
     margin-top: 0;
     margin-bottom: 1em;
 }
