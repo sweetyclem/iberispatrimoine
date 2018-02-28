@@ -1379,11 +1379,17 @@ body.landing #header nav a {
 
 @media (min-width: 2149px) {
     #home {
-        width: 10%;
+        width: 11%;
         position: absolute;
         top: 50%;
         left: 7%;
         transform: translate(-50%,-50%);
+    }
+    .navbar {
+        margin-bottom: 0px;
+        margin-top: 0px;
+        /* height: 3.8em; */
+        height: 4vw;
     }
     .orange-icon {
         width: 22%;
