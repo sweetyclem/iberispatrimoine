@@ -814,11 +814,11 @@ body.landing #header nav a {
     right: 0;
 }
 
-/* .container-navbar {
+#container-navbar {
     margin-right: 0;
     margin-left: 0;
     width: 100%;
-} */
+}
 
 
 /* Banner */
@@ -1035,7 +1035,7 @@ body.landing #header nav a {
     margin-bottom: 0px;
     margin-top: 0px;
     /* height: 3.8em; */
-    /* height: 5vw; */
+    height: 3vw;
 }
 
 .navbar-brand {
@@ -1152,8 +1152,11 @@ body.landing #header nav a {
 
 @media (max-width: 480px) {
     #home {
-        width: 38%;
-        margin-top: 8px;
+        width: 25%;
+        position: absolute;
+        top: 50%;
+        left: 15%;
+        transform: translate(-50%,-50%);
     }
     .icon-left {
         margin-left: 50px;
@@ -1163,9 +1166,13 @@ body.landing #header nav a {
     }
 }
 
-@media (min-width: 480px) and (max-width: 768px) {
+@media (min-width: 481px) and (max-width: 768px) {
     #home {
-        width: 38%;
+        width: 17%;
+        position: absolute;
+        top: 50%;
+        left: 9%;
+        transform: translate(-50%,-50%);
     }
     .orange-icon {
         width: 30%;
@@ -1173,9 +1180,13 @@ body.landing #header nav a {
     }
 }
 
-@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 769px) and (max-width: 990px) {
     #home {
-        width: 38%;
+        width: 15%;
+        position: absolute;
+        top: 50%;
+        left: 9%;
+        transform: translate(-50%,-50%);
     }
     .orange-icon {
         width: 30%;
@@ -1183,9 +1194,37 @@ body.landing #header nav a {
     }
 }
 
-@media (min-width: 991px) {
+@media (min-width: 991px) and (max-width: 1399px) {
     #home {
-        width: 16%;
+        width: 12%;
+        position: absolute;
+        top: 50%;
+        left: 8%;
+        transform: translate(-50%,-50%);
+    }
+    .orange-icon {
+        width: 30%;
+        color: #f1602b;
+    }
+}
+
+@media (min-width: 1400px) and (max-width: 1849px) {
+    #home {
+        width: 10%;
+    }
+    .orange-icon {
+        width: 22%;
+        color: #f1602b;
+    }
+}
+
+@media (min-width: 1850px) {
+    #home {
+        width: 8%;
+        position: absolute;
+        top: 50%;
+        left: 5%;
+        transform: translate(-50%,-50%);
     }
     .orange-icon {
         width: 22%;
@@ -1225,8 +1264,4 @@ body.landing #header nav a {
 
 .intro-text {
     font-size: 16px;
-}
-
-#home {
-    margin-top: 5px;
 }
