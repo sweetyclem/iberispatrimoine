@@ -282,12 +282,12 @@ li span {
         width: 60%;
         color: #f1602b;
     }
-    .icon-left {
+    /* .icon-left {
         margin-left: 50px;
     }
     .icon-right {
         margin-right: 50px;
-    }
+    } */
     .header-text {
         width: 75%;
         position: absolute;
