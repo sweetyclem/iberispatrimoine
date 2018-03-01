@@ -389,4 +389,8 @@ li span {
     .header-text > h1 {
         font-size: 2.5em;
     }
+    #container-navbar {
+        padding-left: 2em;
+        padding-right: 2em;
+    }
 }
