@@ -278,6 +278,10 @@ li span {
 }
 
 @media (min-width: 350px) and (max-width: 480px) {
+    .orange-icon {
+        width: 60%;
+        color: #f1602b;
+    }
     .icon-left {
         margin-left: 50px;
     }
