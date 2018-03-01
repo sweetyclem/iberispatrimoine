@@ -282,11 +282,10 @@ li span {
         width: 60%;
         color: #f1602b;
     }
-    .contact-row > .box {
+    #contact-row-box {
         padding-right: 0;
         padding-left: 0;
     }
-    padding-left: 0;
     .header-text {
         width: 75%;
         position: absolute;
