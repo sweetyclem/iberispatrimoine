@@ -188,11 +188,23 @@ li span {
 
 #header-img {
     position: relative;
-    top: 60;
+    top: 75;
+}
+
+.header-text {
+    position: absolute;
+    top: 45%;
+    left: 0;
+    width: 100%;
+}
+
+.mobile-header-text {
+    font-size: 1.1em;
 }
 
 .header-text > h1 {
     color:white;
+    font-size: 2.2em;
 }
 
 .header-text > p {
@@ -224,6 +236,7 @@ li span {
 
 .style2 {
     background: url("../images/Background_Fleurs.jpg");
+    /* background-color: darksalmon; */
     background-repeat: repeat;
 }
 
@@ -263,63 +276,56 @@ li span {
     .header-text {
         width: 75%;
         position: absolute;
+        top: 55%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .header-text >h1 {
+        font-size: 2em;
+    }
+    .mobile-header {
+        position: relative;
+        top: 60;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+    .header-text {
+        width: 75%;
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .mobile-header-text {
+        font-size: 1.1em;
+    }
+    .header-text >h1 {
+        font-size: 2em;
+    }
+    .mobile-header {
+        position: relative;
+        top: 60;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 999px) {
+    .header-text {
+        width: 75%;
+        position: absolute;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
     }
-    .mobile-header-text {
-        font-size: 1.1em;
-    }
-    .header-text >h1 {
-        font-size: 2em;
-    }
-    .mobile-header {
-        position: relative;
-        top: 60;
-    }
-}
-
-@media (min-width: 481px) and (max-width: 680px) {
-    .header-text {
-        width: 75%;
-        position: absolute;
-        top: 40%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-    }
-    .mobile-header-text {
-        font-size: 1.1em;
-    }
-    .header-text >h1 {
-        font-size: 2em;
-    }
-    .mobile-header {
-        position: relative;
-        top: 60;
-    }
-}
-
-@media (min-width: 681px) and (max-width: 767px) {
-    .header-text {
-        width: 75%;
-        position: absolute;
-        top: 40%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-    }
     .header-text > p {
-        font-size: 1em;
+        font-size: 1.2em;
     }
     .header-text >h1 {
-        font-size: 1.8em;
-    }
-    .mobile-header {
-        position: relative;
-        top: 60;
+        font-size: 2em;
     }
 }
 
-@media (min-width: 768px) and (max-width: 1850px) {
+@media (min-width: 1000px) and (max-width: 1850px) {
     .header-text {
         width: 75%;
         position: absolute;
@@ -328,10 +334,10 @@ li span {
         transform: translate(-50%, -50%);
     }
     .header-text > p {
-        font-size: 1.1em;
+        font-size: 1.4em;
     }
-    .header-text >h1 {
-        font-size: 1.8em;
+    .header-text > h1 {
+        font-size: 2.3em;
     }
 }
 
@@ -341,6 +347,7 @@ li span {
         color: #f1602b;
     }
     .header-text {
+        width: 75%;
         position: absolute;
         top: 40%;
         left: 50%;
@@ -351,9 +358,5 @@ li span {
     }
     .header-text > h1 {
         font-size: 2.5em;
-    }
-    #header-img {
-        position: relative;
-        top: 75;
     }
 }
