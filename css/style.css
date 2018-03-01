@@ -268,7 +268,13 @@ li span {
     color: #f1602b;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 349px) {
+    .header-text >h1 {
+        font-size: 1.5em;
+    }
+}
+
+@media (min-width: 350px) and (max-width: 480px) {
     .icon-left {
         margin-left: 50px;
     }
