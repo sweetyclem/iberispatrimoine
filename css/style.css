@@ -10,7 +10,7 @@
     font-weight: 700;
     font-size: 1.3em;
     height: 100%;
-    line-height: 30px;
+    line-height: 2.2em;
 }
 
 .navbar-default .navbar-nav>li>a:hover {
@@ -33,6 +33,8 @@
     margin-bottom: 0px;
     margin-top: 0px;
     height: 5em;
+    padding-left: 1em;
+    padding-right: 1em;
 }
 
 #home {
@@ -287,6 +289,14 @@ li span {
         position: relative;
         top: 60;
     }
+    .navbar-nav {
+        margin-left: -15px!important;
+        margin-right: -15px!important;
+    }
+    .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+        position: relative;
+        top: 6;
+    }
 }
 
 @media (min-width: 481px) and (max-width: 767px) {
@@ -306,6 +316,14 @@ li span {
     .mobile-header {
         position: relative;
         top: 60;
+    }
+    .navbar-nav {
+        margin-left: -15px!important;
+        margin-right: -15px!important;
+    }
+    .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+        position: relative;
+        top: 6;
     }
 }
 
