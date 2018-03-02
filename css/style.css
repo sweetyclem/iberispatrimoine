@@ -11,6 +11,7 @@
     font-size: 1.3em;
     height: 100%;
     line-height: 2.2em;
+    max-width:100%;
 }
 
 .navbar-default .navbar-nav>li>a:hover {
@@ -22,7 +23,7 @@
 }
 
 .navbar-default {
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: rgba(255, 255, 255, 0.9)!important;
 }
 
 .nav > li > a {
@@ -33,14 +34,20 @@
     margin-bottom: 0px;
     margin-top: 0px;
     height: 5em;
-    padding-left: 1em;
-    padding-right: 1em;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.navbar-brand {
+    padding: 0!important;
 }
 
 #home {
   padding-top: 0.4em;
   padding-bottom: 0.2em;  
 }
+
+container { width: 100% !important } 
 
 /*  ################################################################
     CUSTOM CSS
@@ -52,6 +59,7 @@ body {
     background: #fff;
     font-family: "museo-sans", sans-serif;
     word-break: keep-all;
+    max-width:100%;
 }
 
 body {
@@ -279,7 +287,7 @@ li span {
 
 @media (min-width: 350px) and (max-width: 480px) {
     .orange-icon {
-        width: 60%;
+        width: 40%;
         color: #f1602b;
     }
     #contact-row-box {
@@ -389,7 +397,7 @@ li span {
         font-size: 2.5em;
     }
     #container-navbar {
-        padding-left: 2em;
-        padding-right: 2em;
+        padding-left: 2.5em;
+        padding-right: 3em;
     }
 }
