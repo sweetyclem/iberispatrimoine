@@ -316,6 +316,10 @@ li span {
         position: relative;
         top: 6;
     }
+    #container-navbar {
+        padding-left: 1em;
+        padding-right: 1em;
+    }
 }
 
 @media (min-width: 481px) and (max-width: 767px) {
