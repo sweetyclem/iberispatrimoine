@@ -275,7 +275,7 @@ li span {
 }
 
 .orange-icon {
-    width: 30%;
+    width: 25%;
     color: #f1602b;
 }
 
@@ -319,6 +319,10 @@ li span {
 }
 
 @media (min-width: 481px) and (max-width: 767px) {
+    .orange-icon {
+        width: 30%;
+        color: #f1602b;
+    }
     .header-text {
         width: 75%;
         position: absolute;
