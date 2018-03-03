@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="48.681px" height="48.68px" viewBox="0 0 48.681 48.68" enable-background="new 0 0 48.681 48.68" xml:space="preserve">
+<g>
+	<defs>
+		<rect id="SVGID_1_" width="48.68" height="48.68"/>
+	</defs>
+	<clipPath id="SVGID_2_">
+		<use xlink:href="#SVGID_1_"  overflow="visible"/>
+	</clipPath>
+	<path clip-path="url(#SVGID_2_)" fill="#A7C84A" d="M24.34,48.68c13.443,0,24.341-10.897,24.341-24.34
+		C48.681,10.897,37.783,0,24.34,0C10.897,0,0,10.897,0,24.34C0,37.783,10.897,48.68,24.34,48.68"/>
+</g>
+<path fill="#FFFFFF" d="M33.852,13.07v24.102H14.829V13.07h5.562v1.563h7.899V13.07H33.852z M21.162,11.508h6.357v2.354h-6.357
+	V11.508z M20.391,10.737v1.562h-6.333v25.644h20.564V12.299H28.29v-1.562H20.391z"/>
+<rect x="17.635" y="30.23" fill="#FFFFFF" width="13.415" height="0.771"/>
+<rect x="17.635" y="32.765" fill="#FFFFFF" width="13.415" height="0.771"/>
+<g>
+	<defs>
+		<rect id="SVGID_3_" width="48.68" height="48.68"/>
+	</defs>
+	<clipPath id="SVGID_4_">
+		<use xlink:href="#SVGID_3_"  overflow="visible"/>
+	</clipPath>
+	<path clip-path="url(#SVGID_4_)" fill="#FFFFFF" d="M25.521,16.79c0.865,0.069,1.688,0.373,2.397,0.888
+		c1.172,0.852,1.837,2.037,1.938,3.446h-4.335V16.79z M24.75,16.003v5.891h5.891v-0.386c0-1.809-0.806-3.391-2.27-4.455
+		c-0.947-0.687-2.065-1.05-3.236-1.05H24.75z"/>
+	<path clip-path="url(#SVGID_4_)" fill="#FFFFFF" d="M19.484,21.193c0.163-0.502,0.364-0.897,0.672-1.32
+		c0.812-1.117,2.08-1.823,3.446-1.936v4.915l0.26,0.189l3.712,2.697c-0.901,1.06-2.169,1.664-3.541,1.664
+		c-0.505,0-1.014-0.082-1.51-0.243C20.042,26.352,18.679,23.675,19.484,21.193 M28.026,25.113l-2.851-2.072h3.535
+		C28.655,23.797,28.427,24.468,28.026,25.113 M22.287,27.892c0.573,0.187,1.161,0.281,1.748,0.281c1.748,0,3.355-0.832,4.409-2.281
+		c0.717-0.989,1.051-2.017,1.051-3.236V22.27h-5.12v-5.12h-0.385c-1.758,0.001-3.423,0.849-4.456,2.269
+		c-0.353,0.487-0.594,0.96-0.781,1.535C17.813,23.841,19.399,26.955,22.287,27.892"/>
+</g>
+</svg>
