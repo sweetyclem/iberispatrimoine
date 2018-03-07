@@ -196,11 +196,6 @@ li span {
     color: white;
 }
 
-#header-img {
-    position: relative;
-    top: 75;
-}
-
 .header-text {
     position: absolute;
     top: 45%;
