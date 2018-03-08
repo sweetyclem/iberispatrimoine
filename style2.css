@@ -194,7 +194,7 @@ li span {
 
 .header-text {
     position: absolute;
-    top: 45%;
+    top: 35%;
     left: 0;
     width: 100%;
 }
@@ -290,7 +290,7 @@ li span {
     .header-text {
         width: 75%;
         position: absolute;
-        top: 55%;
+        top: 45%;
         left: 50%;
         transform: translate(-50%, -50%);
     }
@@ -323,7 +323,7 @@ li span {
     .header-text {
         width: 75%;
         position: absolute;
-        top: 40%;
+        top: 30%;
         left: 50%;
         transform: translate(-50%, -50%);
     }
@@ -351,7 +351,7 @@ li span {
     .header-text {
         width: 75%;
         position: absolute;
-        top: 55%;
+        top: 45%;
         left: 50%;
         transform: translate(-50%, -50%);
     }
@@ -367,7 +367,7 @@ li span {
     .header-text {
         width: 75%;
         position: absolute;
-        top: 45%;
+        top: 35%;
         left: 50%;
         transform: translate(-50%, -50%);
     }
