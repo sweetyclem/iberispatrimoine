@@ -234,7 +234,7 @@ li span {
 }
 
 .style2 {
-    background: url("images/flower.jpg");
+    background: url("images/notebook.jpg");
     background-repeat: repeat;
     background-attachment: fixed;
     background-position: center center;
@@ -246,6 +246,7 @@ li span {
 }
 
 #choose {
+    color: white;
     margin-bottom: 1em;
 }
 .icon {
