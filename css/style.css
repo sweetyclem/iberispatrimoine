@@ -56,15 +56,12 @@ container { width: 100% !important }
 /* Basic */
 
 body {
+    -webkit-font-smoothing: antialiased;
     background: #fff;
     font-family: "museo-sans", sans-serif;
     word-break: keep-all;
     max-width:100%;
-}
-
-body {
     color: #444;
-    font-family: "museo-sans", sans-serif;
     font-size: 13pt;
     font-weight: 400;
     line-height: 1.65em;
