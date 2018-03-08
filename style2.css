@@ -118,11 +118,6 @@ section.special {
     text-align: center;
 }
 
-#two {
-    padding: 3em;
-}
-
-
 /* Box */
 
 .box {
@@ -220,7 +215,8 @@ li span {
     color: #f1602b;
     font-weight: bold;
     padding: 0.5em;
-    margin-bottom: 1em;
+    margin-bottom: 0.5em;
+    margin-top: 1em;
 }
 
 /* Wrapper */
@@ -244,10 +240,13 @@ li span {
     background-size: contain;
 }
 
-.choose {
-    margin-top: 0;
+#two {
+    padding-bottom: 2em;
 }
 
+#choose {
+    margin-bottom: 1em;
+}
 .icon {
     width: 25%;
     color: #a7c84a;
@@ -264,6 +263,7 @@ li span {
     font-size: 16px;
     background-color: rgba(255, 255, 255, 0.9);
     margin-bottom: 1em;
+    margin-top: 0.5em;
 }
 
 .orange-icon {
