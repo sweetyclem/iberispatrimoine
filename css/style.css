@@ -10,7 +10,7 @@
     font-size: 1.3em;
     height: 100%;
     line-height: 2.2em;
-    max-width:100%;
+    max-width: 100%;
 }
 
 .navbar-default .navbar-nav>li>a:hover {
@@ -21,7 +21,8 @@
     color: #f1602b;
 }
 
-.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
     border-color: transparent!important;
     background-color: transparent!important;
 }
@@ -43,15 +44,19 @@
 }
 
 #home {
-  padding-top: 0.4em;
-  padding-bottom: 0.2em;  
+    padding-top: 0.4em;
+    padding-bottom: 0.2em;
 }
 
-container { width: 100% !important } 
+container {
+    width: 100% !important
+}
+
 
 /*  ################################################################
     CUSTOM CSS
 ################################################################# */
+
 
 /* Basic */
 
@@ -60,7 +65,7 @@ body {
     background: #fff;
     font-family: "museo-sans", sans-serif;
     word-break: keep-all;
-    max-width:100%;
+    max-width: 100%;
     color: #444;
     font-size: 13pt;
     font-weight: 500;
@@ -114,6 +119,7 @@ h2 {
 section.special {
     text-align: center;
 }
+
 
 /* Box */
 
@@ -180,6 +186,7 @@ li span {
     color: black;
 }
 
+
 /* Header */
 
 .header {
@@ -199,12 +206,12 @@ li span {
     font-size: 1.1em;
 }
 
-.header-text > h1 {
-    color:white;
+.header-text>h1 {
+    color: white;
     font-size: 2.2em;
 }
 
-.header-text > p {
+.header-text>p {
     font-size: 1.2em;
 }
 
@@ -215,6 +222,7 @@ li span {
     margin-bottom: 0.5em;
     margin-top: 1em;
 }
+
 
 /* Wrapper */
 
@@ -234,7 +242,7 @@ li span {
     background-repeat: repeat;
     background-attachment: fixed;
     background-position: center center;
-    background-size: cover; 
+    background-size: cover;
 }
 
 #two {
@@ -271,7 +279,7 @@ li span {
 }
 
 @media (max-width: 349px) {
-    .header-text >h1 {
+    .header-text>h1 {
         font-size: 1.5em;
     }
 }
@@ -288,11 +296,20 @@ li span {
     .header-text {
         width: 75%;
         position: absolute;
-        top: 45%;
+        top: 60%;
         left: 50%;
         transform: translate(-50%, -50%);
     }
-    .header-text >h1 {
+    #header-img {
+        position: relative;
+        top: 75;
+    }
+    section.special {
+        text-align: center;
+        position: relative;
+        top: 100;
+    }
+    .header-text>h1 {
         font-size: 2em;
     }
     .mobile-header {
@@ -303,7 +320,8 @@ li span {
         margin-left: -15px!important;
         margin-right: -15px!important;
     }
-    .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    .navbar-default .navbar-collapse,
+    .navbar-default .navbar-form {
         position: relative;
         top: 6;
     }
@@ -321,14 +339,23 @@ li span {
     .header-text {
         width: 75%;
         position: absolute;
-        top: 30%;
+        top: 60%;
         left: 50%;
         transform: translate(-50%, -50%);
+    }
+    #header-img {
+        position: relative;
+        top: 75;
+    }
+    section.special {
+        text-align: center;
+        position: relative;
+        top: 100;
     }
     .mobile-header-text {
         font-size: 1.1em;
     }
-    .header-text >h1 {
+    .header-text>h1 {
         font-size: 2em;
     }
     .mobile-header {
@@ -339,7 +366,8 @@ li span {
         margin-left: -15px!important;
         margin-right: -15px!important;
     }
-    .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    .navbar-default .navbar-collapse,
+    .navbar-default .navbar-form {
         position: relative;
         top: 6;
     }
